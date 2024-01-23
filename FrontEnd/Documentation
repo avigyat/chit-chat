@@ -4,3 +4,7 @@ yarn                            To install node modules
 yarn dev                        To run app on localserver
 yarn add tailwindcss postcss autoprefixer 
 npx tailwindcss init -p         To add tailwind.config.js file and postcss.config.js
+Register component basic setup
+
+
+yarn add express
