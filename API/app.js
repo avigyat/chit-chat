@@ -4,6 +4,16 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+//dotenv setup
+const dotenv = require('dotenv')
+dotenv.config();
+console.log(process.env.MONGO_URL)
+
+//Mongo setup
+const mongoose = require('mongoose');
+mongoose.connect(process.env.MONGO_URL);
+
+
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var registerRouter = require('./routes/register');

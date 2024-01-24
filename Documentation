@@ -9,4 +9,16 @@ Register component basic setup
 
 
 npx express-generator
-yarn add mongoose    
+yarn add mongoose
+atlas db-avigyatavi  4agWUJqf9BUnze1D
+mongodb+srv://avigyatavi:4agWUJqf9BUnze1D@cluster0.y7q4d2x.mongodb.net/?retryWrites=true&w=majority
+connection string in env file and " yarn add dotenv"
+connecting to mongoDB in app.js
+
+setting up Users model and exporting it
+using Users in Register router and creating async function to create Users
+Q-difference between async await and then?
+
+Adding JSON web token-
+yarn add jsonwebtoken
+
